@@ -9,7 +9,12 @@
 
 1. [Bypass SQL Always True](#alwaystrue)
  
-## 1. Bypass SQL Always True <a name="alwaystrue"></a>
+ 
+ 
+ 
+ 
+ 
+### 1. Bypass SQL Always True <a name="alwaystrue"></a>
 
 Example of QUERY SQL starting from WHERE, please develop and analyze it yourself.
 
