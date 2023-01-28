@@ -1,10 +1,15 @@
-## SQL INJECTION | PAYLOAD AND EXAMPLE QUERY
+# SQL INJECTION 
+### PAYLOAD AND EXAMPLE QUERY
 
 ![https://img.shields.io/badge/ETHICAL%20HACKING-TRUE-red](https://img.shields.io/badge/ETHICAL%20HACKING-TRUE-red)
 
 > ! Attention, This Repository For Ethical Hacking 
 
-### Bypass SQL Always True
+## Table of contents
+
+1. [Bypass SQL Always True](#alwaystrue)
+ 
+## Bypass SQL Always True <a name="alwaystrue"></a>
 
 |NO  |PAYLOAD  | EXAMPLE QUERY |
 |--|--|--|
