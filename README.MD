@@ -5,13 +5,13 @@
 
 > ! Attention, This Repository For Ethical Hacking 
 
-Example of QUERY SQL starting from WHERE, please develop and analyze it yourself.
-
 ## Table of contents
 
 1. [Bypass SQL Always True](#alwaystrue)
  
-## Bypass SQL Always True <a name="alwaystrue"></a>
+## 1. Bypass SQL Always True <a name="alwaystrue"></a>
+
+Example of QUERY SQL starting from WHERE, please develop and analyze it yourself.
 
 |PAYLOAD  | EXAMPLE QUERY |
 |--|--|
