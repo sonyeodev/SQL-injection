@@ -17,7 +17,7 @@ Example of QUERY SQL starting from WHERE, please develop and analyze it yourself
 |2| ```' or 1=1``` |```WHERE username = '' or 1=1 AND password = '' or 1=1;```|
 | | |```WHERE name  = '' or 1=1;```|
 |3 | ```or 1=1``` |```WHERE id = 1 or 1=1;```|
-| | |```WHERE id = NULL or 1=1;```|
+
 
 > Based on Field Name not null is Always True
 
